@@ -11,10 +11,7 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     
-    let label: UILabel = {
-        let label = UILabel()
-        label.text
-    }()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

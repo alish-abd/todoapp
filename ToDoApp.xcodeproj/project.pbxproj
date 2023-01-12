@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		38884F66296F0F6D00438364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F65296F0F6D00438364 /* AppDelegate.swift */; };
 		38884F68296F0F6D00438364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F67296F0F6D00438364 /* SceneDelegate.swift */; };
-		38884F6A296F0F6D00438364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F69296F0F6D00438364 /* ViewController.swift */; };
+		38884F6A296F0F6D00438364 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F69296F0F6D00438364 /* ToDoViewController.swift */; };
 		38884F6D296F0F6D00438364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38884F6B296F0F6D00438364 /* Main.storyboard */; };
 		38884F70296F0F6D00438364 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38884F6E296F0F6D00438364 /* ToDoApp.xcdatamodeld */; };
 		38884F72296F0F6E00438364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38884F71296F0F6E00438364 /* Assets.xcassets */; };
 		38884F75296F0F6E00438364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38884F73296F0F6E00438364 /* LaunchScreen.storyboard */; };
 		38884F7E296F107200438364 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F7C296F107200438364 /* ToDoListItem+CoreDataClass.swift */; };
 		38884F7F296F107200438364 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F7D296F107200438364 /* ToDoListItem+CoreDataProperties.swift */; };
+		389719D629701A5A004328AB /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D529701A5A004328AB /* ActivityViewController.swift */; };
+		389719D929701AEC004328AB /* ActivityItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */; };
+		389719DA29701AEC004328AB /* ActivityItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */; };
 		38CD1E53296FDFBE00DD52EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E52296FDFBE00DD52EC /* Extensions.swift */; };
 		38CD1E56296FE03000DD52EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E55296FE03000DD52EC /* HomeViewController.swift */; };
 		38CD1E59296FE0C000DD52EC /* NewStopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E58296FE0C000DD52EC /* NewStopwatchViewModel.swift */; };
@@ -29,7 +32,7 @@
 		38884F62296F0F6D00438364 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38884F65296F0F6D00438364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38884F67296F0F6D00438364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38884F69296F0F6D00438364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38884F69296F0F6D00438364 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		38884F6C296F0F6D00438364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38884F6F296F0F6D00438364 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 		38884F71296F0F6E00438364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +40,9 @@
 		38884F76296F0F6E00438364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38884F7C296F107200438364 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		38884F7D296F107200438364 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		389719D529701A5A004328AB /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		38CD1E52296FDFBE00DD52EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38CD1E55296FE03000DD52EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		38CD1E58296FE0C000DD52EC /* NewStopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStopwatchViewModel.swift; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		38884F59296F0F6D00438364 = {
 			isa = PBXGroup;
 			children = (
+				389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */,
+				389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */,
 				38884F64296F0F6D00438364 /* ToDoApp */,
 				38884F63296F0F6D00438364 /* Products */,
 			);
@@ -80,6 +88,7 @@
 				38CD1E51296FDF8100DD52EC /* Other */,
 				38CD1E50296FDF7000DD52EC /* Views */,
 				38CD1E4F296FDE8400DD52EC /* Controllers */,
+				389719D029701574004328AB /* TimerListItem */,
 				38884F80296F108A00438364 /* ToDoListItem */,
 				38884F6B296F0F6D00438364 /* Main.storyboard */,
 				38884F73296F0F6E00438364 /* LaunchScreen.storyboard */,
@@ -97,11 +106,17 @@
 			path = ToDoListItem;
 			sourceTree = "<group>";
 		};
+		389719D029701574004328AB /* TimerListItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TimerListItem;
+			sourceTree = "<group>";
+		};
 		38CD1E4F296FDE8400DD52EC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				38CD1E54296FE00500DD52EC /* CoreTabs */,
-				38884F69296F0F6D00438364 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -130,9 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				38CD1E55296FE03000DD52EC /* HomeViewController.swift */,
-				38CD1E5C296FE14000DD52EC /* TabBarViewController.swift */,
 				38CD1E5E296FE16200DD52EC /* ProfileViewController.swift */,
 				38CD1E60296FE17D00DD52EC /* FeedViewController.swift */,
+				38884F69296F0F6D00438364 /* ToDoViewController.swift */,
+				38CD1E5C296FE14000DD52EC /* TabBarViewController.swift */,
+				389719D529701A5A004328AB /* ActivityViewController.swift */,
 			);
 			path = CoreTabs;
 			sourceTree = "<group>";
@@ -217,16 +234,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CD1E61296FE17D00DD52EC /* FeedViewController.swift in Sources */,
-				38884F6A296F0F6D00438364 /* ViewController.swift in Sources */,
+				38884F6A296F0F6D00438364 /* ToDoViewController.swift in Sources */,
 				38884F66296F0F6D00438364 /* AppDelegate.swift in Sources */,
 				38CD1E5D296FE14000DD52EC /* TabBarViewController.swift in Sources */,
+				389719D929701AEC004328AB /* ActivityItem+CoreDataClass.swift in Sources */,
 				38884F68296F0F6D00438364 /* SceneDelegate.swift in Sources */,
 				38CD1E5B296FE11800DD52EC /* NewStopwatchViewCell.swift in Sources */,
+				389719DA29701AEC004328AB /* ActivityItem+CoreDataProperties.swift in Sources */,
 				38CD1E56296FE03000DD52EC /* HomeViewController.swift in Sources */,
 				38CD1E5F296FE16200DD52EC /* ProfileViewController.swift in Sources */,
 				38884F7E296F107200438364 /* ToDoListItem+CoreDataClass.swift in Sources */,
 				38884F7F296F107200438364 /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				38884F70296F0F6D00438364 /* ToDoApp.xcdatamodeld in Sources */,
+				389719D629701A5A004328AB /* ActivityViewController.swift in Sources */,
 				38CD1E59296FE0C000DD52EC /* NewStopwatchViewModel.swift in Sources */,
 				38CD1E53296FDFBE00DD52EC /* Extensions.swift in Sources */,
 			);

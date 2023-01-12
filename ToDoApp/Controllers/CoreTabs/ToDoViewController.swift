@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ToDoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
 
     
@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "ToDo List"
+        title = "To Do"
         view.addSubview(tableView)
         getAllItem()
         tableView.delegate = self

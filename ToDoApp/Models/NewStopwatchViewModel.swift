@@ -10,10 +10,10 @@ import Combine
 
 class NewStopwatchViewModel: ObservableObject, Identifiable {
     
-    var timerName: String
+    let activityName: String
     
-    init(timerName: String) {
-        self.timerName = timerName
+    init(activityName: String) {
+        self.activityName = activityName
     }
 
     

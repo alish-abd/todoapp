@@ -11,28 +11,31 @@ import Combine
 
 class NewStopwatchViewCell: UITableViewCell {
 
+    private var models = [ActivityItem]()
     //MARK: - proporties
     
     // ViewModel to handle the stopwatch logic
-    var stopwatchViewModel = NewStopwatchViewModel(timerName: "New Timer") //instead of observable object in swfitUI
+    var stopwatchViewModel = NewStopwatchViewModel(activityName: "New Timer") //instead of observable object in swfitUI
 
     // Cancelable to stop observing the elapsed time
     var cancellable: AnyCancellable?
+    
+    
     
     let name = "Stopwatch new name"
     static let identifier = "NewStopwatchViewController"
 
 
-    private let stopwatchLabel: UILabel = {
+    public let stopwatchLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 25, weight: .medium)
         return label
     }()
     
-    private let namelabel: UITextField = {
+    public let namelabel: UITextField = {
         let label = UITextField()
         label.font = .systemFont(ofSize: 15, weight: .regular)
-        label.text = "New activity"
+        label.text = ""
 //        label.isEnabled = togg
         return label
     }()
@@ -79,6 +82,7 @@ class NewStopwatchViewCell: UITableViewCell {
         contentView.addSubview(namelabel)
         contentView.addSubview(startStopButton)
         contentView.addSubview(resetButton)
+        contentView.addSubview(settingsButton)
         
         
         startStopButton.addTarget(self, action: #selector(startStopButtonTapped), for: .touchUpInside)
@@ -103,6 +107,7 @@ class NewStopwatchViewCell: UITableViewCell {
         stopwatchLabel.frame = CGRect(x: 20, y: Int(contentView.safeAreaInsets.top), width: Int(200), height: 30)
         startStopButton.frame = CGRect(x: contentView.right - 60, y: contentView.safeAreaInsets.top, width: 50, height: 50)
         resetButton.frame = CGRect(x: contentView.right - 120, y: contentView.safeAreaInsets.top, width: 50, height: 50)
+        settingsButton.frame = CGRect(x: contentView.right - 180, y: contentView.safeAreaInsets.top, width: 50, height: 50)
         namelabel.frame = CGRect(x: 20, y: stopwatchLabel.bottom, width: 200, height: 20)
         
     }
