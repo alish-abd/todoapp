@@ -32,8 +32,8 @@ class NewStopwatchViewCell: UITableViewCell {
         return label
     }()
     
-    public let namelabel: UITextField = {
-        let label = UITextField()
+    public let namelabel: UILabel = {
+        let label = UILabel()
         label.font = .systemFont(ofSize: 15, weight: .regular)
         label.text = ""
 //        label.isEnabled = togg
@@ -82,7 +82,7 @@ class NewStopwatchViewCell: UITableViewCell {
         contentView.addSubview(namelabel)
         contentView.addSubview(startStopButton)
         contentView.addSubview(resetButton)
-        contentView.addSubview(settingsButton)
+//        contentView.addSubview(settingsButton)
         
         
         startStopButton.addTarget(self, action: #selector(startStopButtonTapped), for: .touchUpInside)
@@ -91,6 +91,7 @@ class NewStopwatchViewCell: UITableViewCell {
 
         cancellable = stopwatchViewModel.$elapsedTime.sink { elapsedTime in
             // Update the label with the formatted time
+            
             self.stopwatchLabel.text = self.stopwatchViewModel.formattedElapsedTime()
 //            self.namelabel.text = self.stopwatchViewModel.timerName
 

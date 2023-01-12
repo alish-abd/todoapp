@@ -10,7 +10,6 @@
 		38884F66296F0F6D00438364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F65296F0F6D00438364 /* AppDelegate.swift */; };
 		38884F68296F0F6D00438364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F67296F0F6D00438364 /* SceneDelegate.swift */; };
 		38884F6A296F0F6D00438364 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38884F69296F0F6D00438364 /* ToDoViewController.swift */; };
-		38884F6D296F0F6D00438364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38884F6B296F0F6D00438364 /* Main.storyboard */; };
 		38884F70296F0F6D00438364 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38884F6E296F0F6D00438364 /* ToDoApp.xcdatamodeld */; };
 		38884F72296F0F6E00438364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38884F71296F0F6E00438364 /* Assets.xcassets */; };
 		38884F75296F0F6E00438364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38884F73296F0F6E00438364 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,10 @@
 		389719D629701A5A004328AB /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D529701A5A004328AB /* ActivityViewController.swift */; };
 		389719D929701AEC004328AB /* ActivityItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */; };
 		389719DA29701AEC004328AB /* ActivityItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */; };
+		389719E129704BC6004328AB /* TimerItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719DF29704BC6004328AB /* TimerItem+CoreDataClass.swift */; };
+		389719E229704BC6004328AB /* TimerItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719E029704BC6004328AB /* TimerItem+CoreDataProperties.swift */; };
+		389719E429704C16004328AB /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719E329704C16004328AB /* TimerViewController.swift */; };
+		389719E629706019004328AB /* CoreDataTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389719E529706019004328AB /* CoreDataTimerModel.swift */; };
 		38CD1E53296FDFBE00DD52EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E52296FDFBE00DD52EC /* Extensions.swift */; };
 		38CD1E56296FE03000DD52EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E55296FE03000DD52EC /* HomeViewController.swift */; };
 		38CD1E59296FE0C000DD52EC /* NewStopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1E58296FE0C000DD52EC /* NewStopwatchViewModel.swift */; };
@@ -33,7 +36,6 @@
 		38884F65296F0F6D00438364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38884F67296F0F6D00438364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		38884F69296F0F6D00438364 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
-		38884F6C296F0F6D00438364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38884F6F296F0F6D00438364 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 		38884F71296F0F6E00438364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38884F74296F0F6E00438364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +45,12 @@
 		389719D529701A5A004328AB /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		389719DB29703F61004328AB /* ToDoApp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ToDoApp 2.xcdatamodel"; sourceTree = "<group>"; };
+		389719DC29704023004328AB /* ToDoApp 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ToDoApp 3.xcdatamodel"; sourceTree = "<group>"; };
+		389719DF29704BC6004328AB /* TimerItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		389719E029704BC6004328AB /* TimerItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		389719E329704C16004328AB /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		389719E529706019004328AB /* CoreDataTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTimerModel.swift; sourceTree = "<group>"; };
 		38CD1E52296FDFBE00DD52EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38CD1E55296FE03000DD52EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		38CD1E58296FE0C000DD52EC /* NewStopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStopwatchViewModel.swift; sourceTree = "<group>"; };
@@ -66,6 +74,8 @@
 		38884F59296F0F6D00438364 = {
 			isa = PBXGroup;
 			children = (
+				389719DF29704BC6004328AB /* TimerItem+CoreDataClass.swift */,
+				389719E029704BC6004328AB /* TimerItem+CoreDataProperties.swift */,
 				389719D729701AEC004328AB /* ActivityItem+CoreDataClass.swift */,
 				389719D829701AEC004328AB /* ActivityItem+CoreDataProperties.swift */,
 				38884F64296F0F6D00438364 /* ToDoApp */,
@@ -90,7 +100,6 @@
 				38CD1E4F296FDE8400DD52EC /* Controllers */,
 				389719D029701574004328AB /* TimerListItem */,
 				38884F80296F108A00438364 /* ToDoListItem */,
-				38884F6B296F0F6D00438364 /* Main.storyboard */,
 				38884F73296F0F6E00438364 /* LaunchScreen.storyboard */,
 				38884F76296F0F6E00438364 /* Info.plist */,
 			);
@@ -144,6 +153,7 @@
 		38CD1E54296FE00500DD52EC /* CoreTabs */ = {
 			isa = PBXGroup;
 			children = (
+				389719E329704C16004328AB /* TimerViewController.swift */,
 				38CD1E55296FE03000DD52EC /* HomeViewController.swift */,
 				38CD1E5E296FE16200DD52EC /* ProfileViewController.swift */,
 				38CD1E60296FE17D00DD52EC /* FeedViewController.swift */,
@@ -158,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				38CD1E58296FE0C000DD52EC /* NewStopwatchViewModel.swift */,
+				389719E529706019004328AB /* CoreDataTimerModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,7 +233,6 @@
 			files = (
 				38884F75296F0F6E00438364 /* LaunchScreen.storyboard in Resources */,
 				38884F72296F0F6E00438364 /* Assets.xcassets in Resources */,
-				38884F6D296F0F6D00438364 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +250,10 @@
 				389719D929701AEC004328AB /* ActivityItem+CoreDataClass.swift in Sources */,
 				38884F68296F0F6D00438364 /* SceneDelegate.swift in Sources */,
 				38CD1E5B296FE11800DD52EC /* NewStopwatchViewCell.swift in Sources */,
+				389719E429704C16004328AB /* TimerViewController.swift in Sources */,
+				389719E629706019004328AB /* CoreDataTimerModel.swift in Sources */,
 				389719DA29701AEC004328AB /* ActivityItem+CoreDataProperties.swift in Sources */,
+				389719E229704BC6004328AB /* TimerItem+CoreDataProperties.swift in Sources */,
 				38CD1E56296FE03000DD52EC /* HomeViewController.swift in Sources */,
 				38CD1E5F296FE16200DD52EC /* ProfileViewController.swift in Sources */,
 				38884F7E296F107200438364 /* ToDoListItem+CoreDataClass.swift in Sources */,
@@ -248,6 +261,7 @@
 				38884F70296F0F6D00438364 /* ToDoApp.xcdatamodeld in Sources */,
 				389719D629701A5A004328AB /* ActivityViewController.swift in Sources */,
 				38CD1E59296FE0C000DD52EC /* NewStopwatchViewModel.swift in Sources */,
+				389719E129704BC6004328AB /* TimerItem+CoreDataClass.swift in Sources */,
 				38CD1E53296FDFBE00DD52EC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,14 +269,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		38884F6B296F0F6D00438364 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38884F6C296F0F6D00438364 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38884F73296F0F6E00438364 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -378,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -399,10 +405,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,9 +416,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alishabd.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -427,10 +436,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,9 +447,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alishabd.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -471,9 +483,11 @@
 		38884F6E296F0F6D00438364 /* ToDoApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				389719DC29704023004328AB /* ToDoApp 3.xcdatamodel */,
+				389719DB29703F61004328AB /* ToDoApp 2.xcdatamodel */,
 				38884F6F296F0F6D00438364 /* ToDoApp.xcdatamodel */,
 			);
-			currentVersion = 38884F6F296F0F6D00438364 /* ToDoApp.xcdatamodel */;
+			currentVersion = 389719DC29704023004328AB /* ToDoApp 3.xcdatamodel */;
 			path = ToDoApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
